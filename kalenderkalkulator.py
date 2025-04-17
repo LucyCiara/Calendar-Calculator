@@ -51,6 +51,3 @@ class calendar:
         monthName = list(self.year.keys())[month]
         dayName = self.year[monthName][day]
         return (dayName, monthName)
-
-year2024 = calendar(2024)
-print(year2024.dayToDate(135.01, 1))
